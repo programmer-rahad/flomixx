@@ -1,0 +1,218 @@
+@media (min-width: 768px) {
+  #download-section .download-items {
+    max-height: 328px;
+  }
+  #download-section .download-items .di-left {
+    transform: translateX(10px);
+  }
+  #download-section .download-items .di-left img {
+    max-height: 328px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-section .team-right {
+    margin-top: -25px;
+  }
+  .team-section.library-section .team-right {
+    margin-top: -95px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .team-section .team-right,
+  .team-section .team-members-wrap {
+    width: 100%;
+  }
+  .team-section .team-members-wrap {
+    margin-top: 45px;
+  }
+  .team-section .team-right {
+    order: -1;
+    text-align: center;
+  }
+  #download-section {
+    padding-top: 0;
+  }
+  .library-section {
+    padding-top: 30px;
+  }
+  .library-section .library-items {
+    margin-top: 50px;
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1030px) {
+  #download-section .container {
+    flex-wrap: wrap;
+  }
+  #download-section .download-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #download-section .download-items {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 991.98px) {
+  .team-section .team-members {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-section .team-right {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  #start-learning .learning-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #start-learning .learning-image {
+    width: 100%;
+    text-align: center;
+  }
+  section#match-style .match-image {
+    width: 100%;
+    text-align: center;
+    order: 1;
+    margin-top: 50px;
+  }
+  section#match-style .match-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  #download-section .download-items {
+    flex-direction: column;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #download-section .download-items .di-left {
+    margin-bottom: 12px;
+  }
+  #download-section .download-items .di-left img,
+  #download-section .download-items .di-left a {
+    width: 100%;
+  }
+  #download-section .download-items .di-right a:nth-child(3),
+  #download-section .download-items .di-right a:nth-child(4) {
+    margin-top: 12px;
+  }
+  #download-section .download-items .di-right,
+  #download-section .download-items .di-left {
+    width: 344px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-padding {
+    padding: 90px 0;
+  }
+  .library-section {
+    padding-top: 20px;
+  }
+  #start-learning {
+    margin-top: 10px;
+  }
+  section#match-style {
+    margin-top: -20px;
+  }
+  #start-learning .learning-image {
+    padding: 0;
+  }
+}
+@media (max-width: 684px) {
+  .team-section .team-members {
+    flex-wrap: wrap;
+  }
+  .team-section .team-member {
+    width: 47%;
+  }
+  .team-section .team-member:last-child {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .library-section .library-items {
+    max-width: 400px;
+  }
+  .library-section .library-items .team-member:nth-child(4) {
+    box-shadow: none;
+  }
+  .library-section .library-items .team-member:last-child {
+    margin: 0;
+  }
+  #header-banner .container {
+    min-height: 70vh;
+  }
+  #header-banner .banner {
+    margin-top: 30vh;
+    transform: translateY(calc(-50% - 30px));
+  }
+  #header-banner .banner h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #header-banner .header .bordered-btn {
+    margin-right: 10px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  #header-banner .header .gradient-btn {
+    padding: 1px 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  footer .container .footer-items .footer-item {
+    width: 50%;
+    text-align: center;
+  }
+  footer .container .footer-items .footer-item:nth-child(1),
+  footer .container .footer-items .footer-item:nth-child(2) {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 430px) {
+  .team-section .team-member {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-section .team-member:first-child {
+    margin-bottom: 50px;
+  }
+  .library-section .library-items .team-member:first-child {
+    margin-bottom: 15px;
+  }
+  .library-section .library-items .team-member:last-child {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .library-section .library-items .team-member:nth-last-child(2) {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 383.98px) {
+  #header-banner .logo {
+    max-width: 100px;
+  }
+  #header-banner .header .gradient-btn {
+    transform: translateX(5px);
+  }
+  #header-banner .header .bordered-btn {
+    transform: translateX(8px);
+  }
+  #download-section .download-items .di-right,
+  #download-section .download-items .di-left {
+    max-width: 345px;
+    width: auto;
+  }
+}
